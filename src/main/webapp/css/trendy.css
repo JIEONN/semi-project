@@ -1,0 +1,184 @@
+footer {
+	padding: 50px;
+	border-top: 1px solid #252a34;
+}
+
+footer>.footer-content {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0px 10px;
+	overflow: hidden;
+}
+
+footer>.footer-content * {
+	font-size: 14px;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 15px;
+	float: right;
+}
+
+footer>.footer-content :first-child {
+	font-size: 20px;
+	font-weight: bold;
+	float: right;
+}
+
+footer>.footer-content>h1 {
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 50px;
+	color: #333333;
+	text-align: center;
+	letter-spacing: -3px;
+	margin: 0px;
+	margin-top: 50px;
+}
+
+
+
+
+
+nav {
+	display: flex;
+	justify-content: center
+}
+
+nav>.navi {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav>.navi>li {
+	float: left;
+	width: 250px;
+	text-align: center;
+	position: relative;
+}
+
+nav>.navi>li>a {
+	display: block;
+	color: #333333;
+	margin: 0px 50px;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+nav .sub-navi {
+	list-style-type: none;
+	margin: 0px 50px;
+	padding: 0px;
+	display: none;
+}
+
+.search {
+	position: fixed;
+	top: 10px;
+	left: 80px;
+}
+
+#searchinput {
+	border: none;
+	line-height: 35px;
+	min-height: 35px;
+}
+
+#searchinput:focus {
+	outline: none;
+}
+
+.sub-navi {
+	position: absolute;
+	left: -50px;
+	width: 250px;
+	border-radius: 1px;
+	box-shadow: 2px 2px #ccc;
+	border: 1px solid #ccc;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.sub-navi>li {
+	text-align: center;
+}
+
+.sub-navi>li>a {
+	display: block;
+	color: #333333;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.navi>li:hover>ul {
+	display: block;
+}
+
+.navi>li:hover>ul>li>a:hover {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.memberInfo {
+	position: fixed;
+	top: 10px;
+	right: 150px;
+}
+
+.memberInfo>a {
+	text-decoration: none;
+	color: #333333;
+	font-size: 1.2em;
+}
+
+.memberInfo>a:hover {
+	font-weight: bold;
+}
+
+/* qna 테이블 디자인, 버튼 디자인 */
+.tbl {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+.tbl tr{
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+.tbl th,
+.tbl td {
+  padding: 1rem;
+  text-align: center;
+  
+}
+.qna-tbl-title{
+	color : gray;
+	font-size:30px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.tbl th{
+	color:gray;
+}
+
+.tbl .tr-content {
+	
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.tbl .tr-title {
+  background-color: orange;
+}
+
+.tbl.tbl-hover .tr-content:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tbl.tbl-hover .tr-title:hover {
+  background-color: orange;
+}
+
+
+
+/*--------------------*/
